@@ -1,0 +1,8 @@
+{
+  "name": "Acoustic-to-3D Neural Foley & Spatial Engine",
+  "description": "Motor interactivo de síntesis modal, foley neuronal y acústica espacial en tiempo real con materiales PBR 3D, trazado de rayos acústicos y reverberación por convolución a 48kHz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
