@@ -62,6 +62,8 @@ Designed as an accessible, physics-driven alternative to proprietary audio middl
 │   (FFT Analyzer • LUFS Meter • .WAV Foley/IR Export • C++ Header)    │
 └──────────────────────────────────────────────────────────────────────┘
 
+```
+
 ## 🚀 Getting Started
 
 ### Prerequisites
