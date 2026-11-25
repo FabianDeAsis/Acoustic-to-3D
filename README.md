@@ -61,3 +61,58 @@ Designed as an accessible, physics-driven alternative to proprietary audio middl
 │                  Studio UI, Telemetry & Export                       │
 │   (FFT Analyzer • LUFS Meter • .WAV Foley/IR Export • C++ Header)    │
 └──────────────────────────────────────────────────────────────────────┘
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* **Node.js** (v18+ recommended)
+* A modern browser with **Web Audio API** and **WebGL 2** support
+
+### Installation
+
+```bash
+git clone [https://github.com/FabianDeAsis/Acoustic-to-3D.git](https://github.com/FabianDeAsis/Acoustic-to-3D.git)
+cd Acoustic-to-3D
+npm install
+
+```
+
+### Configuration (Optional AI Material Generator)
+
+Create a `.env.local` file in the root directory if you want to enable LLM-powered material profiling:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+
+```
+
+### Run Locally
+
+```bash
+npm run dev
+
+```
+
+---
+
+## 🗺️ Roadmap
+
+* [x] Real-time 48kHz modal synthesis bank & WebGL 3D acoustic room
+* [x] Dual Hertz contact, Elastic Cavity, Poisson Fracture, and Friedlander shockwave modes
+* [x] Interactive 3D measurement microphone, Sine Sweep, and `.WAV` Impulse Response export
+* [x] `.OBJ` / `.GLTF` custom mesh loading & automated Foley Showcase scenes
+* [ ] **Native C++20 / OpenGL Library Port:** Standalone lock-free C++ DSP core for direct integration into custom game engines (including [ASIS Engine](https://www.google.com/search?q=https://github.com/FabianDeAsis)) and Unreal Engine 5.
+* [ ] **ONNX / DDSP Neural Timbre Conditioning:** Local GPU inference for neural residual synthesis on top of physical modal resonators.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+**Created & Maintained by [Fabian de Asis**](https://www.google.com/search?q=https://github.com/FabianDeAsis) — Audio Engineer, 3D Artist & Graphics Programmer.
+
+```
